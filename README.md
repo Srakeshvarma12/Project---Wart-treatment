@@ -88,5 +88,3 @@ Dropdowns dynamically aligned with training data
 Real-time predictions
 
 Deployable as a cloud-based prototype
-
-Resume & portfolio ready
