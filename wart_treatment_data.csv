@@ -1,0 +1,1001 @@
+Patient ID,Age,Gender,Wart Type,Treatment Method,Treatment Cost,Success Rate (%),Side Effects
+1,55,Male,Mosaic,Cryotherapy,300,92.21965047025496,Mild
+2,57,Female,Mosaic,Cryotherapy,50,83.82769511889313,Mild
+3,61,Male,Genital,Salicylic Acid,200,77.92724787469987,Severe
+4,28,Female,Genital,Electrosurgery,100,81.60816110958797,None
+5,39,Female,Butchers,Salicylic Acid,300,67.59164105587192,Mild
+6,58,Male,Mosaic,Surgical,300,78.95591609980507,Severe
+7,30,Male,Flat,Laser,200,67.32939243415686,Severe
+8,48,Female,Genital,Cryotherapy,300,85.87698166150405,Mild
+9,74,Female,Plantar,Immunotherapy,100,62.58300515099123,None
+10,19,Male,Butchers,Cryotherapy,200,67.55602289286925,None
+11,24,Male,Butchers,Salicylic Acid,300,92.00352846864801,Mild
+12,50,Female,Common,Surgical,100,67.39664550233176,None
+13,21,Male,Genital,Surgical,50,62.86590206066939,None
+14,34,Male,Genital,Salicylic Acid,200,71.35310373595671,Severe
+15,60,Female,Plantar,Immunotherapy,300,79.80982984511695,Mild
+16,65,Male,Filiform,Laser,300,96.1132875508876,Severe
+17,46,Female,Flat,Salicylic Acid,200,66.98139843568654,Severe
+18,68,Male,Butchers,Cryotherapy,200,54.84940130996444,None
+19,58,Male,Genital,Cryotherapy,200,86.68634282656248,None
+20,30,Female,Plantar,Immunotherapy,50,81.2038229729799,None
+21,79,Female,Plantar,Immunotherapy,50,71.30963777847455,Mild
+22,24,Female,Filiform,Cryotherapy,200,80.39174213412258,None
+23,27,Male,Mosaic,Salicylic Acid,300,90.56572668595179,Severe
+24,27,Male,Plantar,Salicylic Acid,200,76.10257553498467,None
+25,79,Male,Mosaic,Salicylic Acid,100,55.6515192681942,None
+26,48,Male,Plantar,Laser,50,84.45880207653985,None
+27,56,Male,Butchers,Surgical,200,88.30334413508157,Mild
+28,25,Female,Butchers,Salicylic Acid,50,70.15103729445929,Severe
+29,75,Male,Mosaic,Electrosurgery,50,75.29310683396959,None
+30,36,Female,Mosaic,Salicylic Acid,300,94.54273654212156,None
+31,34,Female,Butchers,Cryotherapy,300,81.40413849174675,Severe
+32,39,Male,Butchers,Surgical,100,96.68332935915255,None
+33,19,Female,Flat,Surgical,100,62.34769391402245,Mild
+34,25,Female,Mosaic,Salicylic Acid,300,89.5341152144071,Severe
+35,23,Male,Common,Salicylic Acid,200,55.87663308837878,Severe
+36,32,Female,Plantar,Immunotherapy,50,65.97465351735937,None
+37,43,Male,Flat,Salicylic Acid,50,73.33783450742678,None
+38,28,Female,Flat,Laser,300,79.35039205936178,Mild
+39,20,Female,Common,Salicylic Acid,100,79.3998189344342,Mild
+40,27,Female,Filiform,Salicylic Acid,50,85.23189490406313,Mild
+41,52,Male,Butchers,Cryotherapy,200,56.98946457679064,Mild
+42,46,Female,Plantar,Laser,300,70.27795371370196,Severe
+43,69,Male,Flat,Laser,200,94.53144383414624,Mild
+44,57,Male,Genital,Salicylic Acid,300,53.307702626673056,Severe
+45,40,Female,Common,Immunotherapy,50,86.00077416798482,None
+46,29,Male,Flat,Electrosurgery,200,85.19970748164269,None
+47,34,Male,Genital,Electrosurgery,200,61.17829615283239,Severe
+48,50,Female,Genital,Cryotherapy,50,85.40807336570339,Mild
+49,45,Male,Genital,Immunotherapy,100,73.95578873093092,Mild
+50,63,Female,Plantar,Electrosurgery,100,97.32192292775764,Mild
+51,26,Male,Common,Surgical,300,68.21713659686925,None
+52,23,Male,Flat,Surgical,100,56.96181404506951,Severe
+53,66,Female,Plantar,Cryotherapy,200,63.972263505118846,None
+54,70,Male,Common,Surgical,50,50.72186887382818,Severe
+55,40,Female,Genital,Salicylic Acid,300,63.841705696314946,Mild
+56,65,Male,Filiform,Surgical,200,51.80681482251338,Severe
+57,47,Male,Mosaic,Laser,200,80.98294759131574,Severe
+58,48,Male,Mosaic,Immunotherapy,300,69.9376580078717,Severe
+59,21,Female,Mosaic,Salicylic Acid,200,92.86186053262759,Severe
+60,48,Male,Genital,Immunotherapy,50,83.8918042258998,None
+61,69,Male,Plantar,Laser,50,85.05597192306692,Severe
+62,29,Male,Mosaic,Electrosurgery,200,87.07673952414939,None
+63,73,Male,Plantar,Immunotherapy,50,99.54774038564895,Severe
+64,20,Female,Butchers,Surgical,200,54.18348538093259,Severe
+65,26,Male,Flat,Laser,100,67.5304442719625,None
+66,58,Female,Filiform,Surgical,200,55.082717089694874,None
+67,63,Female,Butchers,Cryotherapy,100,98.74071242102826,Severe
+68,22,Female,Genital,Laser,100,67.24257523569665,Mild
+69,22,Female,Plantar,Immunotherapy,100,90.24975163092058,None
+70,20,Male,Flat,Laser,300,62.547878903158875,None
+71,56,Male,Flat,Laser,50,54.80355741149669,None
+72,52,Female,Genital,Salicylic Acid,200,84.6132864886636,Severe
+73,24,Female,Butchers,Electrosurgery,300,97.31632742264446,None
+74,33,Female,Flat,Salicylic Acid,300,64.84411047295089,None
+75,19,Female,Mosaic,Salicylic Acid,100,98.55814062415169,Severe
+76,35,Female,Common,Surgical,100,84.33914536350915,Mild
+77,28,Male,Butchers,Salicylic Acid,300,86.78611571279292,Mild
+78,64,Female,Genital,Salicylic Acid,100,98.95950732200681,Mild
+79,36,Female,Mosaic,Cryotherapy,50,98.68647266087243,Mild
+80,40,Female,Filiform,Salicylic Acid,200,85.20164153702964,Severe
+81,60,Male,Common,Salicylic Acid,200,87.83938746526351,Severe
+82,26,Female,Plantar,Immunotherapy,100,76.86628941639194,Severe
+83,64,Male,Genital,Cryotherapy,100,74.21278639391099,None
+84,24,Female,Filiform,Salicylic Acid,200,96.39078742663953,Severe
+85,74,Male,Mosaic,Electrosurgery,200,82.5164462243473,Severe
+86,24,Female,Genital,Immunotherapy,100,95.16790393330302,Severe
+87,45,Male,Common,Salicylic Acid,300,80.37805557603,None
+88,75,Male,Plantar,Electrosurgery,100,58.49212189721734,Mild
+89,29,Male,Filiform,Salicylic Acid,200,67.01873038433305,Mild
+90,63,Male,Common,Cryotherapy,300,63.34443048122476,Mild
+91,26,Male,Plantar,Surgical,200,64.25774431762477,Severe
+92,70,Female,Filiform,Surgical,100,76.42392106913476,Mild
+93,26,Male,Butchers,Immunotherapy,300,92.53179926173055,Mild
+94,26,Female,Genital,Electrosurgery,50,61.42976408922098,Mild
+95,19,Male,Flat,Surgical,300,81.29449274939,Mild
+96,74,Male,Filiform,Surgical,50,70.74419249132956,Mild
+97,78,Male,Mosaic,Cryotherapy,300,75.47427055176179,Mild
+98,42,Male,Butchers,Surgical,200,97.47592071608113,Mild
+99,45,Male,Filiform,Laser,50,60.77846109323726,Mild
+100,33,Male,Common,Immunotherapy,100,50.792060736529386,Mild
+101,33,Male,Plantar,Salicylic Acid,200,72.95694626315131,Severe
+102,20,Male,Common,Cryotherapy,50,60.60878258041761,Mild
+103,79,Male,Filiform,Immunotherapy,300,51.20528938508808,Severe
+104,52,Female,Plantar,Electrosurgery,100,91.0539099685263,Mild
+105,72,Female,Plantar,Cryotherapy,100,85.344951409535,Severe
+106,50,Female,Plantar,Salicylic Acid,50,76.13974358174089,None
+107,26,Male,Butchers,Laser,50,92.20412370575231,Severe
+108,24,Female,Genital,Electrosurgery,100,63.141949978162415,Severe
+109,52,Male,Plantar,Salicylic Acid,200,89.99177337503603,Severe
+110,72,Male,Butchers,Electrosurgery,200,53.824580843414225,Severe
+111,77,Male,Common,Immunotherapy,100,68.37548600529405,Severe
+112,43,Male,Filiform,Surgical,200,90.82171878308489,Severe
+113,42,Female,Filiform,Laser,300,87.63012855842176,Severe
+114,75,Male,Filiform,Electrosurgery,300,61.66945902758151,None
+115,44,Male,Common,Electrosurgery,50,54.459573906688,None
+116,69,Female,Common,Electrosurgery,100,93.71089169375,None
+117,31,Female,Plantar,Laser,300,87.22834996413866,None
+118,49,Female,Common,Surgical,300,65.885523349979,Severe
+119,67,Female,Common,Surgical,300,99.92033068659939,Mild
+120,42,Male,Butchers,Electrosurgery,50,54.207147720310466,None
+121,38,Female,Filiform,Immunotherapy,200,98.27395199061513,Mild
+122,70,Male,Flat,Salicylic Acid,300,66.82378989977441,None
+123,51,Female,Butchers,Salicylic Acid,50,90.48485742542226,None
+124,20,Female,Butchers,Surgical,300,59.802695073001516,None
+125,43,Female,Plantar,Immunotherapy,300,92.43842965751415,None
+126,42,Female,Genital,Electrosurgery,100,87.41098733925571,None
+127,55,Female,Genital,Salicylic Acid,100,69.42366530411695,Mild
+128,70,Female,Genital,Cryotherapy,300,99.0401447238117,Severe
+129,68,Female,Mosaic,Laser,100,95.69651022480727,None
+130,26,Male,Plantar,Electrosurgery,50,55.94234315855879,None
+131,30,Female,Genital,Laser,50,57.74174221286567,None
+132,52,Male,Butchers,Laser,200,95.89110787993341,Severe
+133,22,Male,Mosaic,Surgical,300,58.12639655456513,Mild
+134,78,Male,Mosaic,Cryotherapy,300,71.03236167167859,Mild
+135,18,Female,Common,Electrosurgery,300,90.67488498603052,Severe
+136,58,Female,Plantar,Electrosurgery,200,70.43542113440436,Severe
+137,29,Male,Genital,Surgical,100,93.70527057226103,None
+138,40,Male,Filiform,Cryotherapy,50,56.18751827331628,Severe
+139,73,Male,Flat,Cryotherapy,200,89.4887131556346,Mild
+140,26,Female,Genital,Immunotherapy,300,85.85922200427433,None
+141,71,Female,Genital,Salicylic Acid,200,68.559523730126,None
+142,48,Female,Common,Salicylic Acid,300,99.08347326868369,Severe
+143,51,Female,Butchers,Surgical,200,80.09754246595342,Mild
+144,73,Female,Mosaic,Cryotherapy,200,91.6558270224076,None
+145,75,Female,Butchers,Electrosurgery,200,58.38023290539585,Severe
+146,67,Male,Genital,Salicylic Acid,100,52.99096704737088,Severe
+147,19,Female,Butchers,Electrosurgery,50,91.69403357093019,Mild
+148,71,Male,Common,Laser,50,67.1748265463937,Mild
+149,53,Female,Flat,Salicylic Acid,50,93.82299762554184,None
+150,48,Female,Butchers,Cryotherapy,300,63.025561246067134,None
+151,18,Female,Flat,Electrosurgery,200,65.82662532292248,None
+152,48,Male,Flat,Cryotherapy,200,79.05364034550371,None
+153,40,Male,Plantar,Cryotherapy,50,83.22234360673508,Mild
+154,78,Female,Plantar,Immunotherapy,300,57.576556146357895,Severe
+155,51,Male,Common,Laser,200,77.77262712145796,None
+156,62,Male,Butchers,Immunotherapy,100,89.70112038041945,Mild
+157,74,Male,Filiform,Laser,100,54.760763917053936,None
+158,30,Female,Filiform,Electrosurgery,100,50.53184328460029,Severe
+159,56,Male,Butchers,Salicylic Acid,200,75.77348180837095,Mild
+160,47,Male,Flat,Immunotherapy,100,54.00125274977044,None
+161,72,Male,Genital,Surgical,300,99.53019820200453,Mild
+162,58,Male,Mosaic,Surgical,100,81.39120024477069,Mild
+163,75,Male,Flat,Laser,50,86.13565284484483,Mild
+164,61,Female,Butchers,Salicylic Acid,100,59.350654969626675,None
+165,22,Female,Flat,Salicylic Acid,300,63.88963431016136,None
+166,28,Male,Genital,Electrosurgery,300,85.76101418110338,None
+167,19,Female,Filiform,Electrosurgery,100,85.21201513638684,Severe
+168,43,Male,Common,Electrosurgery,300,88.39932406864727,None
+169,60,Female,Mosaic,Salicylic Acid,50,57.60009212286501,Severe
+170,46,Female,Common,Immunotherapy,200,73.57407327497613,Severe
+171,41,Female,Common,Surgical,300,60.343484936925684,Mild
+172,67,Female,Common,Salicylic Acid,100,70.28123845671671,None
+173,76,Male,Plantar,Electrosurgery,200,69.79218872432833,Mild
+174,28,Female,Mosaic,Electrosurgery,50,58.44362627356908,Mild
+175,27,Male,Flat,Immunotherapy,100,73.58906734653065,Severe
+176,49,Male,Plantar,Surgical,200,81.41632870294607,None
+177,78,Female,Mosaic,Salicylic Acid,200,53.25487838608803,None
+178,43,Female,Filiform,Electrosurgery,50,59.405415841558764,None
+179,74,Female,Mosaic,Surgical,100,86.7918058045079,Severe
+180,78,Male,Mosaic,Laser,50,59.86511667869499,None
+181,31,Male,Common,Cryotherapy,200,56.31988721350973,Mild
+182,50,Male,Genital,Immunotherapy,300,51.419365058573455,None
+183,49,Female,Mosaic,Salicylic Acid,300,52.13962025376631,Mild
+184,77,Female,Filiform,Electrosurgery,200,73.15582126753873,Severe
+185,43,Male,Mosaic,Surgical,300,92.30215111606353,None
+186,33,Female,Common,Laser,50,81.20481633325383,Severe
+187,23,Female,Flat,Immunotherapy,200,94.78574068207979,None
+188,48,Female,Filiform,Electrosurgery,300,79.4662761380832,None
+189,18,Male,Plantar,Electrosurgery,200,86.57685182451601,Mild
+190,46,Male,Filiform,Electrosurgery,100,71.6306889077164,None
+191,31,Female,Butchers,Immunotherapy,300,95.9181011094681,None
+192,31,Female,Butchers,Laser,50,95.9113206724364,Mild
+193,49,Male,Plantar,Cryotherapy,100,96.89943229590556,Mild
+194,44,Male,Flat,Laser,300,65.71673709397015,Mild
+195,49,Male,Common,Surgical,300,64.44921268826289,Mild
+196,50,Female,Genital,Salicylic Acid,100,64.89611582544718,None
+197,29,Female,Genital,Immunotherapy,200,73.19731515713477,Mild
+198,78,Male,Genital,Immunotherapy,300,89.64550809155841,None
+199,78,Male,Genital,Surgical,50,50.924683897741005,Mild
+200,26,Female,Flat,Cryotherapy,100,94.11853476751854,Mild
+201,49,Female,Mosaic,Salicylic Acid,50,97.60718609877273,None
+202,44,Male,Filiform,Cryotherapy,100,92.38884549301164,None
+203,19,Female,Mosaic,Electrosurgery,50,68.90161547180207,Severe
+204,78,Male,Filiform,Cryotherapy,300,75.09487111328511,Severe
+205,71,Female,Filiform,Surgical,100,70.48029244016419,None
+206,43,Male,Filiform,Immunotherapy,200,63.634240329999784,Mild
+207,52,Female,Butchers,Laser,300,91.26411694510858,None
+208,28,Male,Flat,Laser,50,90.40397247519508,Mild
+209,28,Female,Butchers,Laser,50,81.65299362567559,None
+210,53,Female,Flat,Electrosurgery,200,64.11735571919625,Severe
+211,50,Male,Flat,Salicylic Acid,50,64.92937426100002,Mild
+212,43,Female,Mosaic,Laser,200,53.24456354326149,None
+213,63,Female,Butchers,Surgical,100,74.20206877274504,Severe
+214,60,Female,Flat,Surgical,50,70.41902480278709,Severe
+215,44,Female,Plantar,Electrosurgery,50,98.47284865864412,Mild
+216,32,Male,Butchers,Cryotherapy,200,66.13581230613511,Severe
+217,63,Male,Genital,Electrosurgery,50,70.10436627514657,None
+218,30,Male,Mosaic,Immunotherapy,50,69.12638565058867,Mild
+219,71,Male,Mosaic,Cryotherapy,300,79.13732840498497,None
+220,24,Male,Mosaic,Cryotherapy,300,92.90536656160364,Severe
+221,59,Male,Common,Surgical,50,83.05456649081071,Severe
+222,60,Male,Filiform,Electrosurgery,100,97.79256860461597,None
+223,71,Male,Filiform,Salicylic Acid,300,85.16209511260861,None
+224,39,Female,Plantar,Immunotherapy,200,62.89961232501048,Mild
+225,57,Male,Common,Salicylic Acid,100,82.97246255341204,Severe
+226,52,Male,Butchers,Surgical,200,83.84018070027895,None
+227,77,Male,Flat,Cryotherapy,50,60.89767634473658,None
+228,74,Female,Plantar,Immunotherapy,100,83.36558023882915,Severe
+229,50,Male,Butchers,Surgical,200,78.76203230008106,None
+230,68,Female,Flat,Immunotherapy,100,74.8581645229448,Mild
+231,24,Female,Common,Cryotherapy,50,93.4793833994182,Severe
+232,44,Male,Plantar,Surgical,300,62.3906621661291,None
+233,34,Female,Plantar,Salicylic Acid,200,67.6249819166672,Mild
+234,20,Male,Butchers,Laser,50,56.284666982039894,None
+235,20,Female,Filiform,Salicylic Acid,300,85.69286721072308,Mild
+236,77,Female,Flat,Cryotherapy,300,53.917981642072085,None
+237,77,Female,Filiform,Cryotherapy,50,50.51461336444248,None
+238,28,Female,Filiform,Immunotherapy,50,63.85218792745836,Severe
+239,49,Female,Flat,Laser,50,50.42838070759747,Severe
+240,56,Male,Butchers,Laser,100,79.01279623427006,Mild
+241,59,Male,Butchers,Laser,300,53.399141087547115,None
+242,71,Female,Plantar,Immunotherapy,100,81.62996508046542,Mild
+243,19,Male,Plantar,Electrosurgery,200,57.04222355478752,None
+244,29,Female,Filiform,Surgical,100,86.76438765411127,None
+245,79,Female,Flat,Cryotherapy,200,76.73143530575237,Mild
+246,58,Female,Butchers,Salicylic Acid,300,68.19574380211706,Mild
+247,19,Female,Mosaic,Cryotherapy,50,80.5780128990238,Severe
+248,61,Male,Filiform,Immunotherapy,100,92.60442592460797,None
+249,69,Male,Filiform,Immunotherapy,100,65.13959753816378,Mild
+250,34,Female,Common,Salicylic Acid,100,99.72039179295322,Mild
+251,73,Female,Mosaic,Electrosurgery,200,95.16835684845674,Severe
+252,52,Female,Plantar,Salicylic Acid,300,85.26283039825643,Severe
+253,75,Female,Mosaic,Cryotherapy,100,53.743985360951484,Mild
+254,26,Female,Filiform,Cryotherapy,50,85.73163410241204,Severe
+255,20,Female,Butchers,Laser,100,86.52481154000641,Mild
+256,50,Male,Butchers,Cryotherapy,200,81.57027314620656,None
+257,64,Male,Plantar,Immunotherapy,200,93.36412986492087,Mild
+258,30,Male,Mosaic,Salicylic Acid,100,81.06924608951579,None
+259,46,Male,Butchers,Salicylic Acid,50,69.18391846308154,None
+260,25,Male,Genital,Surgical,100,86.70675162474316,Severe
+261,69,Female,Butchers,Immunotherapy,300,80.32946479256799,Severe
+262,29,Male,Flat,Salicylic Acid,100,51.77302052252764,None
+263,42,Male,Filiform,Surgical,100,83.2121002535875,None
+264,73,Female,Mosaic,Electrosurgery,200,62.51115516705771,Severe
+265,54,Female,Butchers,Salicylic Acid,200,52.55519835334399,Mild
+266,58,Male,Mosaic,Surgical,50,59.22554372066795,Severe
+267,28,Female,Butchers,Surgical,50,55.34606881915679,Severe
+268,76,Female,Butchers,Immunotherapy,300,94.10937033745309,Severe
+269,21,Male,Mosaic,Immunotherapy,50,65.22241233084897,Mild
+270,67,Male,Plantar,Immunotherapy,100,78.15443487516939,Severe
+271,67,Male,Filiform,Surgical,50,62.312263638964275,None
+272,71,Female,Butchers,Salicylic Acid,300,68.91219643919769,None
+273,47,Male,Plantar,Electrosurgery,50,71.43266897381278,Severe
+274,56,Male,Butchers,Immunotherapy,50,83.73261047603407,None
+275,33,Male,Common,Surgical,200,76.1909392515964,Severe
+276,19,Female,Filiform,Cryotherapy,50,70.02636681205297,Severe
+277,31,Female,Flat,Cryotherapy,300,69.57504719925116,Mild
+278,34,Female,Filiform,Laser,50,68.82338399086969,None
+279,31,Male,Mosaic,Electrosurgery,300,91.98696755928546,None
+280,72,Male,Butchers,Electrosurgery,100,61.62464961395023,None
+281,76,Male,Genital,Surgical,50,81.8059079178416,Mild
+282,56,Female,Butchers,Electrosurgery,200,79.8756767629032,Severe
+283,57,Female,Plantar,Salicylic Acid,200,90.35671063996905,Mild
+284,41,Male,Butchers,Laser,200,66.87796685920844,Mild
+285,56,Female,Plantar,Immunotherapy,50,78.32229339960689,Mild
+286,76,Female,Butchers,Laser,200,79.44177975942816,Severe
+287,35,Male,Flat,Electrosurgery,200,76.34128863431755,Severe
+288,30,Female,Common,Salicylic Acid,50,82.12617943800896,Mild
+289,24,Male,Flat,Salicylic Acid,50,96.60684120891341,None
+290,26,Male,Flat,Immunotherapy,50,95.78127374921402,Mild
+291,26,Female,Flat,Cryotherapy,300,50.569710110513164,Mild
+292,37,Female,Mosaic,Immunotherapy,100,77.01521467781248,None
+293,77,Male,Filiform,Electrosurgery,300,72.78312408899012,Mild
+294,60,Male,Genital,Electrosurgery,50,70.3176606427704,Severe
+295,78,Male,Flat,Electrosurgery,200,86.99111215939313,Mild
+296,47,Male,Mosaic,Surgical,300,95.51362359016605,None
+297,78,Female,Genital,Cryotherapy,300,75.64386609530526,Mild
+298,29,Male,Common,Surgical,50,51.72255143105703,Mild
+299,51,Female,Plantar,Laser,200,64.4621292542619,Severe
+300,61,Male,Common,Laser,200,98.2039404675455,Mild
+301,18,Male,Filiform,Immunotherapy,100,66.34673151855313,None
+302,60,Female,Filiform,Surgical,100,93.22455478553135,Severe
+303,78,Female,Genital,Immunotherapy,100,60.36746354733867,Severe
+304,58,Female,Mosaic,Surgical,200,61.76053558633337,Mild
+305,38,Female,Flat,Cryotherapy,200,95.40052899804164,Severe
+306,43,Male,Plantar,Surgical,300,55.39060960784845,Severe
+307,32,Female,Mosaic,Cryotherapy,300,79.29361665202349,Mild
+308,73,Female,Plantar,Immunotherapy,300,78.5487799634721,None
+309,37,Male,Plantar,Laser,50,61.260088647327166,Mild
+310,35,Male,Common,Electrosurgery,300,68.54451009281163,Severe
+311,52,Female,Flat,Immunotherapy,200,50.88971440110032,Severe
+312,75,Female,Mosaic,Salicylic Acid,200,83.25054390852344,Mild
+313,55,Male,Genital,Immunotherapy,100,57.46314655138438,None
+314,44,Female,Common,Immunotherapy,200,79.6970814115174,Severe
+315,24,Male,Mosaic,Immunotherapy,200,84.96332153863099,None
+316,63,Male,Genital,Immunotherapy,300,98.33476690477039,None
+317,69,Female,Filiform,Immunotherapy,50,83.50992917198747,Mild
+318,42,Male,Butchers,Surgical,300,90.7774698035528,None
+319,22,Female,Mosaic,Cryotherapy,50,57.725743003317525,Severe
+320,45,Female,Mosaic,Immunotherapy,100,87.10355635541538,Mild
+321,74,Male,Mosaic,Cryotherapy,300,51.260409772068336,Mild
+322,18,Male,Mosaic,Cryotherapy,100,56.379582541687085,Mild
+323,58,Female,Filiform,Salicylic Acid,300,70.73995268938009,None
+324,56,Male,Plantar,Immunotherapy,50,98.66466643428575,None
+325,71,Male,Mosaic,Electrosurgery,200,90.93855597332637,None
+326,48,Female,Filiform,Salicylic Acid,50,94.07954469008642,Mild
+327,29,Female,Genital,Electrosurgery,300,93.71055625458297,None
+328,40,Female,Flat,Immunotherapy,100,91.65552364779984,Severe
+329,76,Male,Mosaic,Salicylic Acid,50,63.35905050464075,Severe
+330,34,Female,Plantar,Laser,300,72.46686164242149,None
+331,22,Male,Filiform,Electrosurgery,100,63.33135267678417,None
+332,77,Female,Plantar,Electrosurgery,200,84.81122109355064,Severe
+333,77,Female,Butchers,Laser,100,62.70601723452578,None
+334,21,Female,Flat,Electrosurgery,50,74.85528636761103,Mild
+335,48,Female,Mosaic,Surgical,100,97.56729565502116,None
+336,18,Female,Flat,Cryotherapy,50,79.10311169153817,None
+337,41,Male,Mosaic,Laser,50,62.794415192256174,None
+338,63,Male,Butchers,Laser,50,78.83810980098798,Mild
+339,39,Male,Genital,Laser,50,62.77620809651269,Mild
+340,18,Male,Genital,Cryotherapy,300,53.938062510304114,Severe
+341,69,Female,Flat,Immunotherapy,50,83.5590653246804,Severe
+342,66,Male,Flat,Surgical,100,88.59752857530776,Mild
+343,63,Female,Plantar,Immunotherapy,300,99.00010221611959,Mild
+344,46,Female,Common,Laser,200,92.96737975650319,Mild
+345,66,Female,Mosaic,Surgical,300,96.66973999568503,Severe
+346,43,Female,Mosaic,Laser,300,81.38934634262955,Mild
+347,32,Female,Plantar,Salicylic Acid,300,85.68797258861073,Severe
+348,59,Female,Genital,Electrosurgery,100,64.80166771186214,Severe
+349,36,Male,Genital,Cryotherapy,300,80.83469641005433,None
+350,72,Female,Butchers,Cryotherapy,100,70.49872450536611,None
+351,75,Female,Genital,Cryotherapy,50,75.48281212525407,Mild
+352,70,Female,Butchers,Salicylic Acid,200,91.63878374985407,None
+353,33,Male,Mosaic,Immunotherapy,200,64.41179485476225,None
+354,68,Female,Butchers,Surgical,50,75.8428137696936,Mild
+355,36,Male,Plantar,Immunotherapy,100,94.57731916988735,None
+356,58,Female,Flat,Laser,200,61.20985528730501,Mild
+357,64,Male,Plantar,Cryotherapy,50,99.29648724343163,Mild
+358,30,Male,Genital,Laser,300,92.32555007475938,Mild
+359,42,Female,Plantar,Cryotherapy,200,69.55261564092605,None
+360,34,Female,Plantar,Immunotherapy,200,94.88457236707487,None
+361,41,Male,Filiform,Salicylic Acid,100,56.117283472191886,Severe
+362,38,Male,Filiform,Cryotherapy,50,51.29585059911801,Mild
+363,64,Male,Flat,Surgical,300,93.58572198270673,None
+364,66,Male,Genital,Electrosurgery,300,73.57289297134508,Mild
+365,50,Female,Mosaic,Immunotherapy,200,53.679097067551,None
+366,66,Male,Flat,Cryotherapy,50,84.87324085206697,Severe
+367,45,Male,Genital,Electrosurgery,50,90.05265624010138,None
+368,19,Female,Mosaic,Salicylic Acid,100,83.3546882758541,None
+369,57,Female,Common,Salicylic Acid,50,59.968013998545615,Mild
+370,79,Male,Flat,Salicylic Acid,50,93.80183129883123,Severe
+371,69,Female,Flat,Electrosurgery,300,89.50995778097217,Severe
+372,24,Male,Flat,Cryotherapy,200,79.81838247290949,Severe
+373,26,Male,Common,Laser,100,56.578528118938976,Severe
+374,65,Male,Common,Salicylic Acid,50,91.9742746546576,None
+375,40,Male,Flat,Salicylic Acid,50,81.7031544517601,None
+376,46,Female,Mosaic,Cryotherapy,100,78.92847665625206,Severe
+377,43,Female,Plantar,Salicylic Acid,200,80.97389879448792,Severe
+378,73,Male,Plantar,Electrosurgery,100,80.65434593413437,None
+379,44,Female,Common,Cryotherapy,200,54.561265879625,Mild
+380,44,Male,Butchers,Surgical,50,66.77872668854619,Mild
+381,42,Male,Plantar,Electrosurgery,200,86.52514005802286,Severe
+382,51,Male,Plantar,Surgical,100,98.8137825252673,Mild
+383,34,Female,Butchers,Laser,100,81.33686448726408,Severe
+384,31,Male,Mosaic,Cryotherapy,100,57.32343754241971,Severe
+385,44,Male,Genital,Salicylic Acid,100,57.993199543442955,Severe
+386,35,Male,Genital,Salicylic Acid,200,80.32130213386375,None
+387,77,Male,Filiform,Surgical,200,98.50591756036002,Severe
+388,26,Male,Common,Salicylic Acid,100,78.68276911169373,Severe
+389,68,Female,Flat,Immunotherapy,100,72.56192291246234,None
+390,42,Male,Filiform,Laser,50,86.5151633290283,None
+391,60,Male,Mosaic,Electrosurgery,300,98.75936682262287,Mild
+392,39,Male,Genital,Laser,50,67.62153922899076,Mild
+393,64,Male,Plantar,Salicylic Acid,50,83.73336463515392,None
+394,68,Female,Common,Salicylic Acid,50,74.41707561552363,Mild
+395,32,Female,Flat,Salicylic Acid,50,92.09348457039185,Severe
+396,56,Female,Filiform,Laser,50,96.89903071177312,None
+397,45,Male,Mosaic,Laser,50,84.11153793606067,Mild
+398,19,Female,Butchers,Salicylic Acid,100,73.20786026381262,Mild
+399,25,Female,Mosaic,Laser,100,79.55852000237064,Mild
+400,78,Female,Common,Salicylic Acid,300,51.07517315374776,None
+401,44,Female,Genital,Surgical,200,91.17590286552453,None
+402,57,Female,Butchers,Surgical,50,56.77085802146194,Severe
+403,78,Female,Common,Cryotherapy,200,62.82941986366342,None
+404,64,Male,Genital,Salicylic Acid,300,84.5980907221663,Mild
+405,52,Male,Flat,Surgical,50,97.42442927341145,Mild
+406,32,Male,Common,Electrosurgery,300,87.27086239923071,Mild
+407,61,Male,Flat,Surgical,200,82.6691020793038,None
+408,58,Male,Filiform,Salicylic Acid,200,65.34964539883934,None
+409,65,Female,Flat,Salicylic Acid,100,61.050368744311164,None
+410,34,Female,Mosaic,Cryotherapy,100,83.88519307969277,None
+411,63,Female,Filiform,Laser,100,55.867965634831535,None
+412,57,Female,Plantar,Electrosurgery,200,92.0917947558244,None
+413,48,Male,Genital,Electrosurgery,300,58.2108744695641,Mild
+414,22,Female,Butchers,Immunotherapy,100,69.44936497405217,Severe
+415,30,Female,Common,Immunotherapy,50,89.83425174833229,None
+416,24,Male,Genital,Surgical,200,68.68830312569861,Mild
+417,45,Male,Butchers,Salicylic Acid,300,92.52918227938741,None
+418,58,Male,Common,Cryotherapy,200,66.35468682288672,Mild
+419,79,Male,Butchers,Surgical,300,86.26177991373439,None
+420,64,Male,Butchers,Salicylic Acid,100,82.11404095391046,None
+421,47,Male,Butchers,Cryotherapy,200,87.61893665973638,Severe
+422,32,Male,Filiform,Laser,50,75.00974234203952,None
+423,19,Male,Mosaic,Cryotherapy,50,92.15556631080428,Mild
+424,79,Male,Genital,Electrosurgery,200,97.97619932037331,Severe
+425,27,Female,Plantar,Laser,200,93.03498328829178,Mild
+426,35,Female,Flat,Laser,300,71.90476123482233,Mild
+427,72,Female,Mosaic,Cryotherapy,200,51.09166914645651,Mild
+428,30,Male,Flat,Electrosurgery,300,90.69492532985902,None
+429,66,Female,Mosaic,Electrosurgery,100,98.39606005226402,Mild
+430,74,Male,Filiform,Surgical,300,74.09065861249888,Mild
+431,22,Male,Butchers,Laser,300,66.15106295754802,Mild
+432,61,Female,Plantar,Salicylic Acid,200,93.86999259157723,Mild
+433,48,Male,Butchers,Laser,50,63.15685392668159,Mild
+434,67,Female,Flat,Laser,300,73.86258415211798,None
+435,41,Male,Plantar,Cryotherapy,100,96.85256480993051,None
+436,24,Female,Mosaic,Immunotherapy,50,94.4381749475107,Severe
+437,69,Male,Filiform,Surgical,50,80.97860908461627,None
+438,18,Male,Flat,Laser,300,68.35980130896027,Severe
+439,39,Female,Flat,Immunotherapy,100,65.6497293746837,Severe
+440,72,Male,Genital,Salicylic Acid,50,51.06404000672388,Mild
+441,63,Male,Flat,Surgical,200,81.67784694808819,Mild
+442,65,Female,Filiform,Cryotherapy,100,77.3082167077433,None
+443,47,Female,Genital,Surgical,300,96.09980062471088,Severe
+444,53,Female,Filiform,Electrosurgery,50,78.79164033270236,Severe
+445,20,Male,Plantar,Cryotherapy,50,89.77945417744546,Mild
+446,60,Male,Filiform,Laser,100,78.36578219364789,Mild
+447,32,Male,Mosaic,Surgical,100,57.85569152844525,Mild
+448,44,Female,Filiform,Salicylic Acid,50,84.04799253819363,Severe
+449,42,Male,Plantar,Immunotherapy,300,63.833882545159625,Severe
+450,31,Male,Filiform,Surgical,50,72.78942031746259,Mild
+451,36,Male,Plantar,Cryotherapy,50,54.00400016155071,None
+452,38,Female,Flat,Laser,200,50.823414660355326,Mild
+453,34,Male,Filiform,Electrosurgery,50,76.08686674816883,Severe
+454,77,Male,Plantar,Electrosurgery,100,51.72602820696597,Severe
+455,43,Female,Flat,Electrosurgery,100,62.32231652962486,Severe
+456,38,Male,Filiform,Cryotherapy,50,66.89667844594982,Mild
+457,28,Male,Filiform,Immunotherapy,50,53.8733197794132,Severe
+458,42,Male,Butchers,Cryotherapy,50,84.49315949598065,Severe
+459,43,Male,Common,Electrosurgery,200,60.43197851088899,Severe
+460,42,Female,Common,Immunotherapy,300,58.67363946894824,Mild
+461,38,Female,Plantar,Immunotherapy,200,96.06174499401845,Mild
+462,46,Male,Flat,Cryotherapy,300,75.51792899687514,Mild
+463,76,Male,Mosaic,Laser,100,90.77353641761492,Mild
+464,27,Male,Mosaic,Electrosurgery,50,58.67668434312168,Severe
+465,46,Male,Common,Cryotherapy,200,91.918678355488,Mild
+466,40,Male,Filiform,Salicylic Acid,50,98.9035226669832,Mild
+467,42,Male,Flat,Cryotherapy,100,75.89267266609194,Severe
+468,70,Male,Filiform,Salicylic Acid,50,95.3427122597746,None
+469,42,Female,Flat,Cryotherapy,300,58.76928373709542,Severe
+470,27,Male,Mosaic,Laser,200,73.03854142128668,Mild
+471,32,Female,Flat,Cryotherapy,200,93.52548767903801,None
+472,37,Male,Genital,Surgical,100,57.93925855246271,Severe
+473,41,Male,Filiform,Laser,300,96.89323170624908,Severe
+474,18,Female,Genital,Salicylic Acid,300,95.98403598280777,Severe
+475,67,Male,Flat,Electrosurgery,100,82.72235483010795,Severe
+476,27,Female,Plantar,Cryotherapy,100,91.40142105122828,Mild
+477,67,Male,Filiform,Laser,200,70.76853950448537,Mild
+478,52,Female,Common,Salicylic Acid,50,84.36355786771384,None
+479,29,Female,Filiform,Surgical,300,78.99036396263202,None
+480,53,Male,Butchers,Cryotherapy,100,71.44152635052117,Severe
+481,56,Female,Plantar,Cryotherapy,100,56.63716023593775,Mild
+482,23,Female,Common,Salicylic Acid,300,75.44837837465948,Severe
+483,27,Male,Filiform,Electrosurgery,200,87.11624529460636,None
+484,77,Male,Common,Cryotherapy,300,65.8851587821857,None
+485,52,Female,Flat,Immunotherapy,200,86.94189471422129,None
+486,74,Female,Filiform,Laser,300,53.99973449620149,Severe
+487,40,Male,Genital,Surgical,300,59.458983615596665,None
+488,49,Female,Plantar,Surgical,300,67.51734171807416,Mild
+489,34,Female,Flat,Surgical,50,88.18463109251651,Mild
+490,39,Female,Flat,Immunotherapy,50,80.7802072708741,Severe
+491,38,Male,Butchers,Immunotherapy,50,59.28444748926759,Mild
+492,30,Male,Plantar,Laser,200,95.36786755238916,None
+493,33,Male,Plantar,Immunotherapy,200,53.75466462323416,Mild
+494,64,Male,Plantar,Immunotherapy,300,82.51674047072285,Mild
+495,20,Female,Genital,Surgical,300,89.87655522062703,Severe
+496,76,Female,Butchers,Surgical,50,65.1254886860437,Severe
+497,38,Male,Filiform,Electrosurgery,50,65.4216458024116,Mild
+498,73,Female,Common,Electrosurgery,100,96.18464402521766,None
+499,29,Female,Butchers,Surgical,200,60.78365009102282,Mild
+500,33,Male,Flat,Cryotherapy,200,76.58064523487018,Severe
+501,42,Female,Mosaic,Salicylic Acid,300,56.88620949867733,Mild
+502,27,Female,Common,Laser,100,71.26641152760695,Mild
+503,73,Male,Flat,Salicylic Acid,200,72.31135726480281,None
+504,50,Male,Butchers,Electrosurgery,50,98.26589225145408,None
+505,76,Male,Mosaic,Salicylic Acid,100,81.77848079705836,None
+506,21,Female,Common,Laser,300,87.02034032681935,None
+507,45,Male,Genital,Electrosurgery,50,98.38266194685397,Mild
+508,44,Male,Filiform,Surgical,200,62.27309831857785,Severe
+509,78,Female,Filiform,Electrosurgery,100,94.85549627467108,None
+510,37,Female,Common,Surgical,50,65.71199473872895,None
+511,47,Female,Common,Laser,100,86.39757171777168,Mild
+512,39,Female,Genital,Laser,50,97.80707343120926,Mild
+513,52,Male,Common,Laser,200,63.75551939802628,Severe
+514,55,Female,Genital,Surgical,300,95.26842709296254,Severe
+515,53,Female,Plantar,Cryotherapy,50,67.18100224541675,None
+516,41,Male,Common,Electrosurgery,300,82.68012488305348,Mild
+517,46,Female,Genital,Laser,300,95.76162075543974,Severe
+518,44,Female,Common,Salicylic Acid,100,60.90067472676508,Severe
+519,32,Female,Genital,Immunotherapy,200,91.89281744224071,Mild
+520,52,Male,Filiform,Cryotherapy,100,76.41992397147482,Mild
+521,20,Male,Plantar,Electrosurgery,50,79.64367737581055,Severe
+522,57,Male,Mosaic,Cryotherapy,50,57.187348250609595,Severe
+523,19,Male,Plantar,Electrosurgery,200,70.08161142362839,None
+524,68,Female,Plantar,Laser,300,87.93388812295345,Severe
+525,69,Male,Butchers,Salicylic Acid,50,95.85671484966842,Mild
+526,19,Female,Filiform,Laser,50,71.3401221962873,Mild
+527,45,Male,Flat,Salicylic Acid,100,83.0592018101392,Mild
+528,67,Male,Filiform,Immunotherapy,300,51.28249761879632,Severe
+529,46,Female,Butchers,Electrosurgery,300,52.887005602335805,Mild
+530,62,Female,Genital,Immunotherapy,50,68.41280477253488,Severe
+531,22,Female,Genital,Salicylic Acid,100,80.18079131529095,None
+532,47,Female,Plantar,Cryotherapy,200,87.84561921730366,Mild
+533,47,Female,Flat,Cryotherapy,50,87.03666762737959,Mild
+534,65,Female,Filiform,Salicylic Acid,200,72.6146571603352,Mild
+535,48,Female,Plantar,Laser,300,70.11443789775319,Mild
+536,26,Female,Mosaic,Surgical,100,58.4339261031357,None
+537,60,Female,Filiform,Salicylic Acid,200,85.54776903076491,Severe
+538,59,Female,Butchers,Electrosurgery,50,66.95951005922814,None
+539,40,Female,Mosaic,Immunotherapy,50,58.909737622789955,Mild
+540,35,Female,Mosaic,Immunotherapy,50,84.53492409464283,None
+541,58,Male,Genital,Immunotherapy,200,52.974778973932125,None
+542,56,Female,Filiform,Cryotherapy,300,77.45207866563881,None
+543,20,Female,Plantar,Immunotherapy,100,70.63325468469688,None
+544,39,Male,Genital,Salicylic Acid,50,70.61143131850336,Mild
+545,32,Male,Flat,Surgical,100,65.38661584316363,Mild
+546,34,Male,Butchers,Surgical,50,57.247651207386596,Severe
+547,75,Male,Filiform,Salicylic Acid,50,72.55112788435024,Severe
+548,75,Female,Mosaic,Surgical,50,60.53001956801515,Severe
+549,48,Male,Butchers,Electrosurgery,100,56.7456733704354,Mild
+550,63,Male,Mosaic,Electrosurgery,300,74.99800483026276,None
+551,74,Male,Flat,Laser,50,63.673376544836344,None
+552,49,Male,Flat,Surgical,50,74.42423241389028,Severe
+553,41,Female,Butchers,Salicylic Acid,50,59.48580685036475,None
+554,75,Female,Filiform,Salicylic Acid,200,55.3213127732039,Mild
+555,42,Female,Butchers,Salicylic Acid,200,93.00524247975508,None
+556,55,Male,Genital,Laser,100,74.1216867172451,None
+557,35,Female,Genital,Electrosurgery,100,67.46282442628943,Mild
+558,60,Female,Filiform,Immunotherapy,100,95.82733028875475,Severe
+559,61,Male,Genital,Electrosurgery,300,76.49315740167849,Mild
+560,41,Male,Plantar,Electrosurgery,100,66.59466719343285,None
+561,43,Female,Filiform,Salicylic Acid,200,95.90102329640479,Mild
+562,61,Female,Plantar,Surgical,200,82.55664414025291,Mild
+563,66,Female,Mosaic,Salicylic Acid,200,85.92106140546821,None
+564,74,Male,Filiform,Surgical,50,92.15543039053463,Severe
+565,50,Female,Filiform,Salicylic Acid,300,55.19448774301153,Mild
+566,31,Female,Genital,Surgical,50,80.46047006688035,Mild
+567,44,Male,Butchers,Cryotherapy,300,63.09199694637613,None
+568,66,Female,Flat,Surgical,200,71.74167793220498,Mild
+569,50,Female,Common,Cryotherapy,100,92.52280972494705,Mild
+570,75,Female,Mosaic,Salicylic Acid,100,99.62162772120399,Mild
+571,66,Female,Plantar,Immunotherapy,300,94.793269119855,None
+572,58,Female,Common,Electrosurgery,50,93.94868279897872,Severe
+573,49,Female,Genital,Salicylic Acid,100,50.70203416528722,None
+574,73,Female,Filiform,Laser,50,93.33745828952027,None
+575,44,Male,Butchers,Cryotherapy,200,94.38801602350478,None
+576,68,Male,Common,Surgical,50,64.9602131849422,None
+577,57,Female,Genital,Surgical,300,77.65971883052248,Severe
+578,37,Female,Butchers,Immunotherapy,200,71.7301647099324,Severe
+579,43,Male,Flat,Cryotherapy,50,70.47997389050431,None
+580,55,Female,Mosaic,Cryotherapy,200,79.12949456154462,None
+581,75,Male,Genital,Surgical,300,95.86583039630226,None
+582,38,Female,Mosaic,Surgical,300,78.32777683320546,None
+583,47,Male,Common,Surgical,100,81.82116256449683,Mild
+584,37,Female,Genital,Immunotherapy,100,66.38926881394258,Severe
+585,28,Male,Genital,Electrosurgery,100,72.18174232551767,Mild
+586,78,Female,Genital,Cryotherapy,200,98.64972076933313,Severe
+587,53,Male,Mosaic,Surgical,50,93.63294550690648,Severe
+588,37,Female,Plantar,Surgical,100,97.14690919388813,None
+589,32,Female,Plantar,Salicylic Acid,50,59.90318700998557,Severe
+590,70,Male,Genital,Cryotherapy,100,58.25421766901811,Severe
+591,37,Male,Flat,Electrosurgery,200,71.3843304772249,Severe
+592,35,Male,Plantar,Immunotherapy,200,66.64815338322123,None
+593,46,Female,Butchers,Cryotherapy,200,50.050798890351246,Mild
+594,72,Male,Plantar,Electrosurgery,50,69.48655133644294,None
+595,67,Female,Plantar,Surgical,50,73.17087189972844,Severe
+596,23,Male,Filiform,Electrosurgery,100,60.53504342828855,Mild
+597,39,Male,Plantar,Immunotherapy,50,62.576013049527646,None
+598,58,Male,Genital,Surgical,200,94.30640244323315,Severe
+599,77,Female,Filiform,Cryotherapy,300,85.84313634972139,Mild
+600,23,Male,Common,Surgical,200,72.58936125293204,Severe
+601,33,Female,Mosaic,Electrosurgery,300,82.68026428039693,None
+602,41,Female,Mosaic,Cryotherapy,50,71.40852620194048,Severe
+603,55,Male,Mosaic,Surgical,200,98.12042584307562,Mild
+604,73,Female,Mosaic,Surgical,300,54.42105444181865,Severe
+605,66,Male,Flat,Salicylic Acid,100,91.15026807566198,Severe
+606,43,Male,Filiform,Laser,50,98.16876848896695,None
+607,57,Male,Genital,Laser,300,61.253958821474676,Mild
+608,45,Male,Mosaic,Salicylic Acid,200,92.4989897386482,None
+609,25,Female,Butchers,Electrosurgery,100,55.29906013240033,None
+610,74,Female,Butchers,Salicylic Acid,50,59.18988605187021,None
+611,22,Male,Butchers,Cryotherapy,50,97.44514174943954,Severe
+612,42,Female,Common,Electrosurgery,300,88.48915072565867,None
+613,79,Female,Mosaic,Cryotherapy,50,59.01920898543588,Severe
+614,35,Male,Genital,Laser,200,70.34009991116676,Mild
+615,59,Female,Filiform,Electrosurgery,300,86.31947902318124,Severe
+616,74,Male,Common,Electrosurgery,200,95.7274972624577,Severe
+617,64,Female,Filiform,Cryotherapy,50,79.00901653824876,Severe
+618,42,Female,Genital,Electrosurgery,200,77.92548182956644,None
+619,46,Female,Common,Laser,50,66.21568308148706,None
+620,32,Male,Mosaic,Salicylic Acid,300,96.02901001479358,Mild
+621,35,Male,Common,Laser,50,56.35478006651034,None
+622,54,Male,Common,Immunotherapy,200,78.25083896397781,None
+623,54,Male,Butchers,Electrosurgery,200,68.99155733891385,Mild
+624,37,Male,Plantar,Cryotherapy,300,81.1383589769474,Severe
+625,60,Male,Flat,Electrosurgery,100,97.32043811540761,Severe
+626,38,Female,Common,Laser,100,65.02258881618917,Mild
+627,54,Male,Filiform,Laser,200,81.10843017509382,None
+628,44,Male,Mosaic,Immunotherapy,200,60.21924599593507,None
+629,75,Male,Mosaic,Cryotherapy,300,71.52458437194753,Mild
+630,71,Male,Genital,Cryotherapy,100,99.98998528062428,None
+631,41,Male,Genital,Cryotherapy,50,96.31429119595205,None
+632,71,Male,Flat,Salicylic Acid,200,69.21324716812603,None
+633,72,Male,Genital,Cryotherapy,200,78.81100925592833,Severe
+634,42,Female,Common,Electrosurgery,50,95.84368227072467,None
+635,49,Male,Plantar,Electrosurgery,100,69.99516701321565,Mild
+636,56,Female,Common,Salicylic Acid,300,50.46883837582284,Severe
+637,26,Female,Butchers,Electrosurgery,50,71.59025261052949,Mild
+638,78,Female,Genital,Immunotherapy,300,99.36725913606273,Severe
+639,73,Female,Filiform,Electrosurgery,200,89.29078074727343,None
+640,45,Male,Butchers,Salicylic Acid,300,54.02152057126,None
+641,36,Female,Filiform,Electrosurgery,100,65.84338814058434,Mild
+642,25,Male,Common,Cryotherapy,50,69.8163987546664,Severe
+643,58,Male,Flat,Electrosurgery,200,99.07441390197195,Mild
+644,53,Female,Filiform,Laser,300,64.02743665229207,None
+645,40,Female,Mosaic,Cryotherapy,50,66.4491190689402,None
+646,57,Female,Plantar,Laser,100,71.59230105049585,Mild
+647,48,Male,Filiform,Electrosurgery,50,77.57631954468431,Severe
+648,59,Female,Butchers,Electrosurgery,300,96.70454767439257,Mild
+649,54,Male,Flat,Electrosurgery,100,87.28311360364201,Mild
+650,41,Female,Common,Electrosurgery,200,62.01471470370109,Mild
+651,43,Female,Genital,Laser,200,90.93305751893845,Mild
+652,36,Female,Filiform,Cryotherapy,50,72.51431903574043,Mild
+653,19,Female,Mosaic,Cryotherapy,300,63.789215274153015,Severe
+654,34,Male,Butchers,Electrosurgery,50,96.5236514269176,Severe
+655,26,Female,Common,Immunotherapy,100,57.7707180156781,None
+656,52,Female,Genital,Surgical,50,90.58699480629869,None
+657,36,Male,Genital,Surgical,300,60.50421209663224,Mild
+658,78,Male,Common,Electrosurgery,200,84.78839769757505,None
+659,58,Male,Mosaic,Surgical,100,85.75690876360383,Mild
+660,59,Male,Filiform,Cryotherapy,200,78.23471599903068,None
+661,24,Female,Butchers,Surgical,50,50.31354975830705,Severe
+662,59,Female,Mosaic,Surgical,100,52.58794487686415,Severe
+663,26,Female,Butchers,Surgical,300,95.4676311627405,None
+664,64,Male,Common,Surgical,300,70.60639827852583,Mild
+665,56,Male,Common,Laser,200,64.5457652038274,Severe
+666,39,Female,Filiform,Surgical,200,97.64731612269526,None
+667,66,Male,Butchers,Surgical,50,84.51183407870428,Mild
+668,74,Female,Common,Immunotherapy,50,86.76620704959242,Mild
+669,39,Male,Butchers,Surgical,300,80.00852009470341,Severe
+670,33,Female,Common,Salicylic Acid,300,82.85752028926368,None
+671,75,Male,Genital,Immunotherapy,100,75.01526241120794,Severe
+672,48,Female,Filiform,Laser,100,92.64040185669755,Mild
+673,36,Male,Flat,Surgical,300,75.61506231614291,Mild
+674,45,Female,Mosaic,Immunotherapy,50,74.7254914847875,Mild
+675,19,Female,Common,Laser,300,80.38201547593756,Mild
+676,28,Male,Plantar,Cryotherapy,300,57.89444058163728,None
+677,40,Female,Mosaic,Salicylic Acid,200,86.53807153404065,None
+678,42,Male,Butchers,Salicylic Acid,300,65.59139365297924,Severe
+679,55,Female,Genital,Immunotherapy,300,97.01948875740173,Severe
+680,56,Male,Genital,Surgical,300,50.23294533585476,Mild
+681,37,Female,Genital,Cryotherapy,300,73.49238705572942,None
+682,49,Female,Common,Cryotherapy,200,55.68424000708246,Severe
+683,53,Male,Butchers,Cryotherapy,200,70.63838899823646,None
+684,78,Female,Butchers,Laser,50,79.55230500744834,Mild
+685,19,Male,Common,Surgical,200,75.2983757173455,None
+686,59,Male,Plantar,Surgical,200,88.98800297520941,Severe
+687,64,Female,Plantar,Surgical,300,50.67191275031333,None
+688,72,Female,Genital,Salicylic Acid,100,50.0313309317319,Mild
+689,19,Female,Plantar,Electrosurgery,300,94.68259202373586,Mild
+690,26,Male,Filiform,Surgical,50,84.61183130655762,Mild
+691,71,Male,Butchers,Surgical,300,89.43563589039454,None
+692,38,Female,Common,Immunotherapy,300,93.267407911799,None
+693,33,Female,Genital,Surgical,200,71.41578257993245,Mild
+694,79,Male,Butchers,Salicylic Acid,100,54.17228837674399,Severe
+695,19,Female,Filiform,Laser,50,81.24351888063953,Severe
+696,40,Male,Genital,Salicylic Acid,50,86.19632689458169,Severe
+697,68,Female,Butchers,Electrosurgery,200,69.64443136284376,Severe
+698,44,Female,Filiform,Electrosurgery,100,60.80693370787165,None
+699,43,Male,Flat,Cryotherapy,200,96.53246522324676,None
+700,65,Male,Filiform,Immunotherapy,300,81.3996897280777,None
+701,45,Female,Plantar,Electrosurgery,100,81.53170017154923,None
+702,38,Female,Flat,Cryotherapy,200,62.478020323582264,None
+703,29,Male,Plantar,Laser,100,74.13452532278588,Mild
+704,24,Male,Flat,Surgical,100,55.224096932517334,None
+705,47,Female,Genital,Electrosurgery,50,65.60015623520638,Mild
+706,22,Male,Plantar,Electrosurgery,300,85.46464937862254,None
+707,59,Female,Flat,Immunotherapy,50,94.36088991980986,Mild
+708,25,Male,Filiform,Immunotherapy,50,86.22947430134022,None
+709,41,Female,Common,Salicylic Acid,100,79.55791545223308,Severe
+710,53,Male,Mosaic,Electrosurgery,100,75.36243549262677,Mild
+711,78,Female,Genital,Electrosurgery,300,89.04475966491736,Severe
+712,72,Male,Common,Immunotherapy,50,74.88933508556484,Mild
+713,63,Female,Mosaic,Immunotherapy,100,98.19203620615545,Severe
+714,71,Male,Mosaic,Immunotherapy,50,57.700254674817245,Mild
+715,18,Female,Flat,Laser,300,74.7021187238566,Mild
+716,18,Female,Flat,Immunotherapy,100,66.73251956568726,Mild
+717,55,Male,Mosaic,Cryotherapy,300,60.48627088723937,Mild
+718,67,Female,Genital,Electrosurgery,100,71.59466218950953,None
+719,44,Female,Butchers,Electrosurgery,100,84.4743430872019,Severe
+720,70,Female,Flat,Salicylic Acid,100,85.43783964296985,None
+721,67,Female,Plantar,Immunotherapy,300,70.0544954280294,None
+722,76,Male,Common,Electrosurgery,100,57.472574102937365,None
+723,55,Male,Butchers,Immunotherapy,300,66.10078499614747,Mild
+724,43,Male,Butchers,Immunotherapy,200,87.45469824719704,Severe
+725,48,Male,Butchers,Surgical,300,86.70081295997218,Mild
+726,27,Female,Mosaic,Surgical,200,55.229167150859205,None
+727,57,Male,Plantar,Salicylic Acid,50,58.73292263564419,Severe
+728,32,Male,Filiform,Laser,300,73.73671483204099,None
+729,44,Male,Filiform,Surgical,100,90.07023443830344,Mild
+730,28,Male,Common,Laser,300,54.24652230444257,None
+731,57,Female,Plantar,Electrosurgery,50,76.96498302383506,Severe
+732,56,Female,Plantar,Electrosurgery,300,55.49741385158854,Mild
+733,71,Male,Butchers,Salicylic Acid,50,72.42973434181498,None
+734,66,Male,Common,Laser,200,55.6996610091846,Severe
+735,60,Female,Plantar,Cryotherapy,300,50.572366728201224,Mild
+736,20,Male,Common,Electrosurgery,300,96.26410189627357,Mild
+737,71,Male,Butchers,Cryotherapy,50,58.005148230433505,None
+738,70,Male,Flat,Immunotherapy,100,83.5175483057271,Severe
+739,75,Male,Butchers,Cryotherapy,300,61.93042571060818,Mild
+740,21,Male,Filiform,Cryotherapy,300,61.06175246488617,None
+741,42,Female,Mosaic,Laser,100,71.30528528930317,None
+742,73,Female,Butchers,Surgical,50,80.65831390179085,Severe
+743,30,Female,Filiform,Salicylic Acid,200,66.47648390945591,Severe
+744,62,Male,Plantar,Surgical,50,50.84123856234438,Mild
+745,33,Female,Genital,Salicylic Acid,100,71.03594506957997,Severe
+746,43,Female,Common,Electrosurgery,100,96.2404566785691,Severe
+747,74,Female,Plantar,Cryotherapy,200,56.70282787907422,Mild
+748,57,Male,Butchers,Laser,100,92.54639206665944,None
+749,56,Male,Plantar,Salicylic Acid,300,93.14493629857431,None
+750,47,Male,Filiform,Electrosurgery,300,69.60582421559563,None
+751,49,Male,Plantar,Immunotherapy,200,99.5988934693325,None
+752,74,Female,Filiform,Salicylic Acid,100,84.24594936733355,Mild
+753,73,Male,Mosaic,Immunotherapy,200,68.98922708466586,None
+754,29,Male,Filiform,Electrosurgery,50,90.68571939448864,None
+755,47,Male,Filiform,Cryotherapy,300,57.751375776226396,Mild
+756,78,Female,Filiform,Laser,50,97.61727489115773,None
+757,24,Female,Flat,Cryotherapy,100,54.72906927020974,Mild
+758,19,Female,Common,Salicylic Acid,50,95.71361646983588,Mild
+759,73,Female,Filiform,Salicylic Acid,100,81.38508001566912,None
+760,27,Female,Filiform,Electrosurgery,100,81.0362834702151,Mild
+761,67,Female,Plantar,Surgical,300,66.50558844483199,Severe
+762,73,Female,Flat,Salicylic Acid,100,74.46385718958129,Mild
+763,77,Male,Butchers,Salicylic Acid,100,97.64340111435118,Mild
+764,59,Female,Genital,Surgical,100,66.466599404318,None
+765,60,Female,Mosaic,Salicylic Acid,200,90.49470697937105,None
+766,76,Female,Filiform,Laser,50,90.47759670756508,Mild
+767,42,Female,Butchers,Cryotherapy,300,93.12000835980444,Severe
+768,71,Male,Mosaic,Cryotherapy,50,95.39025621761888,Mild
+769,49,Male,Flat,Immunotherapy,200,68.0757750852636,Severe
+770,37,Male,Mosaic,Electrosurgery,100,70.21421094055046,Severe
+771,60,Male,Butchers,Laser,50,90.14084065791037,Severe
+772,65,Female,Butchers,Surgical,50,95.71805759905314,Severe
+773,46,Female,Genital,Laser,300,97.00941345526326,Severe
+774,39,Female,Butchers,Electrosurgery,200,82.48809821364071,None
+775,75,Female,Genital,Cryotherapy,100,63.552826607111854,Severe
+776,26,Male,Mosaic,Cryotherapy,50,65.52884392156548,None
+777,59,Male,Common,Salicylic Acid,100,88.90658416986605,None
+778,65,Female,Mosaic,Salicylic Acid,300,54.155511593021565,Severe
+779,30,Female,Plantar,Salicylic Acid,200,76.16875198749983,None
+780,46,Male,Filiform,Laser,200,73.01130954878823,Mild
+781,74,Female,Filiform,Surgical,300,67.09068061959661,None
+782,60,Female,Butchers,Salicylic Acid,50,97.98654696504404,Severe
+783,47,Male,Flat,Immunotherapy,100,64.21292430382933,None
+784,19,Male,Flat,Laser,300,96.23695085117902,None
+785,63,Male,Flat,Surgical,200,51.221243886245226,Severe
+786,52,Male,Genital,Salicylic Acid,100,65.21857726356964,Mild
+787,41,Male,Filiform,Electrosurgery,100,53.35344567287577,Mild
+788,27,Male,Genital,Immunotherapy,100,93.04538302601,Mild
+789,46,Male,Mosaic,Electrosurgery,50,96.66843508833585,None
+790,22,Male,Butchers,Laser,100,75.94271329800932,Severe
+791,42,Female,Plantar,Salicylic Acid,50,50.85041406899533,Mild
+792,65,Male,Common,Cryotherapy,50,73.9795454648478,Mild
+793,73,Male,Filiform,Laser,50,58.96061448529918,Severe
+794,65,Female,Butchers,Cryotherapy,200,94.37565684633317,None
+795,72,Male,Genital,Cryotherapy,100,84.04120088406304,Severe
+796,33,Female,Filiform,Salicylic Acid,300,89.33769057334959,None
+797,53,Male,Mosaic,Cryotherapy,200,85.10347058053199,Mild
+798,75,Female,Flat,Surgical,50,83.58996397397502,None
+799,21,Female,Genital,Electrosurgery,300,88.61750368188058,None
+800,74,Male,Flat,Electrosurgery,100,72.96747476403829,Severe
+801,78,Male,Genital,Electrosurgery,300,98.6039255456081,None
+802,38,Female,Common,Salicylic Acid,200,83.0142145290054,None
+803,36,Male,Mosaic,Laser,50,87.7604397679014,None
+804,36,Male,Filiform,Electrosurgery,50,80.96627630773416,Severe
+805,48,Female,Butchers,Salicylic Acid,200,86.28945982949128,Mild
+806,60,Male,Genital,Surgical,100,70.52773356372052,Severe
+807,75,Female,Plantar,Electrosurgery,200,90.88469730566023,Severe
+808,28,Male,Filiform,Laser,300,88.16459097038182,None
+809,79,Female,Genital,Immunotherapy,100,59.02197356563176,Severe
+810,73,Male,Butchers,Immunotherapy,100,74.86374267551948,Mild
+811,66,Female,Plantar,Cryotherapy,50,67.00278072942882,Severe
+812,60,Male,Plantar,Surgical,50,53.61756510322283,None
+813,26,Male,Flat,Salicylic Acid,200,64.58046026975862,Mild
+814,36,Female,Filiform,Surgical,50,61.58605858353497,None
+815,42,Female,Butchers,Electrosurgery,300,81.83389009747955,None
+816,42,Female,Flat,Surgical,100,90.5406118093247,Mild
+817,30,Female,Plantar,Cryotherapy,200,52.66587563933023,None
+818,53,Male,Flat,Cryotherapy,100,68.67384261266659,None
+819,71,Female,Butchers,Laser,300,87.51265332089643,Severe
+820,45,Female,Common,Electrosurgery,300,91.85980332934818,Severe
+821,76,Female,Filiform,Surgical,50,59.970079113166115,None
+822,67,Female,Butchers,Salicylic Acid,200,59.38018940848026,Severe
+823,34,Female,Genital,Cryotherapy,300,83.97411938700664,None
+824,33,Female,Genital,Immunotherapy,50,86.33185875704578,None
+825,36,Female,Flat,Laser,100,87.48111460855684,Severe
+826,54,Male,Genital,Surgical,300,74.74313141765383,Mild
+827,61,Male,Plantar,Surgical,50,64.45225113663096,Severe
+828,69,Female,Common,Salicylic Acid,300,89.5927685515141,Severe
+829,35,Male,Flat,Laser,200,88.90191969633415,Mild
+830,70,Female,Common,Immunotherapy,50,58.198165518019394,None
+831,75,Female,Mosaic,Salicylic Acid,200,70.57845018655277,Mild
+832,52,Male,Common,Salicylic Acid,100,52.147001986017635,Mild
+833,52,Male,Plantar,Cryotherapy,100,77.83997661071166,Mild
+834,70,Male,Mosaic,Salicylic Acid,200,51.281171775280704,Mild
+835,52,Male,Filiform,Electrosurgery,300,78.89402089639323,Severe
+836,31,Female,Filiform,Salicylic Acid,300,67.52649525910854,Severe
+837,30,Female,Common,Cryotherapy,100,51.65077627052259,Severe
+838,25,Male,Plantar,Cryotherapy,50,67.26084742770496,Severe
+839,46,Female,Mosaic,Salicylic Acid,100,73.9520459729433,Mild
+840,34,Female,Plantar,Immunotherapy,300,84.48413153853312,None
+841,69,Male,Plantar,Cryotherapy,50,83.68229389605212,Severe
+842,56,Male,Flat,Laser,300,72.3704479618775,Severe
+843,36,Female,Filiform,Laser,200,96.84527415760317,Mild
+844,73,Male,Common,Electrosurgery,300,63.93742661333653,None
+845,73,Male,Flat,Surgical,100,58.08196215081413,None
+846,54,Female,Filiform,Electrosurgery,50,90.36121132822325,Mild
+847,41,Male,Genital,Immunotherapy,200,81.6302025061384,None
+848,63,Male,Mosaic,Electrosurgery,50,83.14003910296988,Mild
+849,70,Female,Mosaic,Salicylic Acid,50,76.52885421389199,Mild
+850,22,Female,Genital,Electrosurgery,200,96.1668688448507,Mild
+851,72,Male,Plantar,Electrosurgery,300,86.56085613501034,Mild
+852,23,Male,Filiform,Immunotherapy,300,78.02060461433328,Mild
+853,66,Male,Filiform,Cryotherapy,50,99.86619778757722,Mild
+854,28,Female,Common,Salicylic Acid,200,56.66492111897265,None
+855,50,Female,Butchers,Cryotherapy,100,92.22623757228584,None
+856,73,Male,Genital,Salicylic Acid,50,87.47414726985403,Mild
+857,55,Male,Plantar,Surgical,100,53.63195214260899,Mild
+858,61,Female,Filiform,Immunotherapy,50,82.70093427675653,None
+859,39,Female,Common,Surgical,200,95.67992924941124,Mild
+860,32,Female,Plantar,Immunotherapy,100,95.02416871951988,None
+861,76,Female,Mosaic,Salicylic Acid,200,96.44787190036598,Severe
+862,41,Female,Plantar,Cryotherapy,100,68.67167841131621,None
+863,51,Male,Genital,Salicylic Acid,100,80.19943817511573,Mild
+864,52,Male,Genital,Electrosurgery,50,87.06600759160192,None
+865,77,Male,Plantar,Cryotherapy,100,82.0634546239985,Mild
+866,30,Female,Flat,Laser,100,72.14935256700348,Mild
+867,46,Male,Common,Surgical,200,59.946030649943836,None
+868,50,Female,Common,Laser,200,85.9959025103715,Severe
+869,63,Male,Genital,Cryotherapy,100,65.0969560255044,Mild
+870,28,Female,Plantar,Electrosurgery,100,79.21320781179783,None
+871,19,Male,Butchers,Surgical,100,58.74202656936966,Severe
+872,55,Male,Flat,Immunotherapy,300,77.32196754361654,Mild
+873,35,Female,Plantar,Salicylic Acid,300,69.12791017118361,None
+874,44,Male,Common,Immunotherapy,100,98.63739458742444,None
+875,73,Female,Butchers,Electrosurgery,50,97.388213860002,Mild
+876,77,Female,Common,Salicylic Acid,300,61.87191114004555,None
+877,37,Female,Mosaic,Immunotherapy,100,75.96325404286344,Severe
+878,24,Female,Butchers,Immunotherapy,50,67.10061624988482,Severe
+879,24,Male,Common,Surgical,200,57.808004902842306,None
+880,58,Female,Common,Surgical,300,69.25225761346272,Severe
+881,51,Male,Genital,Electrosurgery,50,55.51167838860833,Mild
+882,49,Female,Butchers,Electrosurgery,200,66.03498147728082,Severe
+883,46,Male,Genital,Electrosurgery,300,96.23788011595599,Severe
+884,29,Male,Plantar,Cryotherapy,50,64.52301477455664,Mild
+885,78,Female,Common,Surgical,100,52.98811974245737,Severe
+886,77,Female,Common,Laser,200,73.60115106641193,None
+887,46,Female,Mosaic,Laser,200,86.44364607442375,None
+888,74,Male,Flat,Immunotherapy,300,84.03343619108418,Mild
+889,66,Male,Butchers,Laser,300,53.29728451262066,Mild
+890,52,Male,Butchers,Surgical,100,61.72060137297077,None
+891,43,Male,Flat,Immunotherapy,100,57.72011361829391,None
+892,49,Female,Plantar,Salicylic Acid,50,90.85356908408048,Severe
+893,76,Female,Mosaic,Immunotherapy,200,60.54669506463318,Severe
+894,45,Male,Genital,Laser,50,67.04960332751128,Mild
+895,54,Female,Filiform,Immunotherapy,300,52.297202170678474,Mild
+896,44,Male,Common,Electrosurgery,50,93.47500933345303,Mild
+897,71,Female,Filiform,Salicylic Acid,50,51.38852411211715,Severe
+898,28,Male,Common,Surgical,200,74.2484035660253,Severe
+899,38,Female,Flat,Salicylic Acid,100,61.72784736578493,Mild
+900,38,Male,Genital,Salicylic Acid,100,58.38496081308615,Mild
+901,25,Female,Plantar,Laser,200,89.1669269061633,Severe
+902,63,Female,Plantar,Salicylic Acid,100,67.0649865140463,Severe
+903,62,Female,Common,Electrosurgery,200,62.57705741489361,Mild
+904,74,Female,Common,Cryotherapy,300,83.00879327404516,None
+905,46,Male,Flat,Cryotherapy,100,50.866171780794936,Severe
+906,58,Female,Genital,Surgical,50,99.83092241727806,Mild
+907,62,Male,Butchers,Salicylic Acid,300,88.1316295350585,Severe
+908,73,Female,Common,Cryotherapy,200,75.38240715207385,Severe
+909,71,Female,Mosaic,Immunotherapy,300,69.561441545451,None
+910,55,Male,Plantar,Surgical,200,70.37160719585508,Mild
+911,62,Female,Flat,Cryotherapy,300,65.696659457765,Mild
+912,62,Male,Butchers,Laser,200,83.3554815948558,Mild
+913,76,Male,Mosaic,Surgical,200,85.95815365827815,Severe
+914,50,Female,Flat,Laser,200,91.64039818351691,Mild
+915,38,Male,Butchers,Cryotherapy,200,69.48649714305014,Mild
+916,73,Female,Mosaic,Immunotherapy,100,94.01250416958965,Severe
+917,70,Female,Common,Immunotherapy,100,88.70724155700769,Severe
+918,72,Female,Plantar,Salicylic Acid,50,78.54876787615481,Severe
+919,77,Male,Genital,Electrosurgery,50,91.50393363221957,Mild
+920,46,Male,Genital,Immunotherapy,300,75.29072838141383,None
+921,22,Female,Filiform,Salicylic Acid,200,67.5588931795226,None
+922,20,Female,Butchers,Immunotherapy,50,50.32582350401233,Mild
+923,71,Female,Flat,Salicylic Acid,100,79.12566322071218,None
+924,62,Female,Common,Surgical,200,52.349224851550595,None
+925,37,Female,Genital,Laser,100,81.61563237806396,None
+926,34,Female,Flat,Cryotherapy,50,80.01146970782835,Mild
+927,44,Male,Flat,Surgical,200,99.07959431213993,Mild
+928,40,Female,Mosaic,Surgical,100,52.65340753967781,Mild
+929,56,Female,Butchers,Immunotherapy,50,89.41375404168764,Mild
+930,58,Male,Plantar,Immunotherapy,50,64.91520441461046,None
+931,72,Male,Filiform,Salicylic Acid,200,74.79610986202536,Mild
+932,43,Male,Butchers,Surgical,100,98.23541919154682,None
+933,28,Male,Mosaic,Laser,300,81.43678432877691,Mild
+934,20,Female,Butchers,Salicylic Acid,200,85.4102264856342,None
+935,58,Female,Butchers,Surgical,50,60.68619871692202,None
+936,58,Female,Mosaic,Salicylic Acid,300,55.09647495507739,Severe
+937,40,Male,Butchers,Cryotherapy,50,56.4357780886059,None
+938,27,Female,Genital,Surgical,100,56.563778252365054,Severe
+939,76,Male,Genital,Immunotherapy,300,95.88669336053385,None
+940,77,Male,Flat,Electrosurgery,100,70.07914549610514,Mild
+941,61,Male,Flat,Cryotherapy,50,92.83808887364262,Mild
+942,58,Male,Butchers,Cryotherapy,100,79.07024407601303,Mild
+943,23,Female,Butchers,Salicylic Acid,100,60.69024975301275,Severe
+944,18,Male,Plantar,Laser,300,71.14756659217363,Severe
+945,75,Male,Plantar,Surgical,300,64.602813667862,None
+946,68,Male,Filiform,Electrosurgery,50,78.2656934916018,None
+947,19,Male,Butchers,Electrosurgery,200,57.251369765298236,None
+948,24,Female,Mosaic,Laser,100,65.07658369195143,Mild
+949,76,Female,Flat,Laser,300,71.26550637073669,None
+950,27,Male,Butchers,Laser,50,97.4885855200043,Severe
+951,69,Female,Common,Laser,200,76.364477808118,Severe
+952,58,Male,Genital,Immunotherapy,100,80.37933519241008,Mild
+953,70,Male,Plantar,Salicylic Acid,100,76.49303429688246,None
+954,38,Female,Plantar,Laser,100,83.14761085843696,None
+955,77,Female,Butchers,Electrosurgery,100,98.29995495261275,Severe
+956,67,Male,Flat,Salicylic Acid,200,57.14733343777164,Severe
+957,44,Female,Plantar,Immunotherapy,200,61.596186788402456,None
+958,42,Female,Plantar,Laser,300,92.00387449822499,Severe
+959,35,Female,Common,Immunotherapy,300,85.22026743601992,Mild
+960,21,Female,Butchers,Electrosurgery,50,67.10602705581263,Severe
+961,24,Female,Filiform,Immunotherapy,200,58.8251325565316,Mild
+962,37,Female,Common,Surgical,300,80.93171004076694,Mild
+963,30,Female,Filiform,Salicylic Acid,50,56.427805310177426,Severe
+964,63,Female,Butchers,Immunotherapy,300,94.35889584942922,None
+965,40,Male,Genital,Salicylic Acid,300,67.99150993208619,None
+966,39,Male,Mosaic,Laser,100,64.53607567603582,Mild
+967,43,Female,Plantar,Immunotherapy,200,82.60686280045181,Severe
+968,53,Male,Butchers,Electrosurgery,50,87.47580961165635,None
+969,72,Male,Plantar,Cryotherapy,50,94.10924080476866,Mild
+970,75,Female,Butchers,Cryotherapy,50,67.9841421155692,Mild
+971,26,Male,Flat,Electrosurgery,50,64.7864151199199,Mild
+972,42,Male,Flat,Salicylic Acid,100,88.21560107051863,Severe
+973,45,Male,Flat,Immunotherapy,50,80.44346528219214,None
+974,68,Male,Genital,Laser,100,95.13291390050507,Severe
+975,53,Female,Genital,Cryotherapy,300,80.34097148472647,Severe
+976,62,Male,Common,Surgical,100,61.65694045113458,None
+977,23,Male,Butchers,Immunotherapy,200,55.17389582683535,None
+978,25,Female,Common,Immunotherapy,300,51.93531088962025,Mild
+979,46,Female,Common,Salicylic Acid,300,73.23362117860802,None
+980,53,Male,Genital,Immunotherapy,50,98.07709544585398,None
+981,23,Female,Genital,Salicylic Acid,200,75.7625510290717,Severe
+982,64,Male,Butchers,Cryotherapy,300,73.56258626285006,None
+983,68,Male,Common,Electrosurgery,50,66.84328035707695,Mild
+984,65,Male,Filiform,Salicylic Acid,300,66.70357552867696,Severe
+985,52,Female,Genital,Salicylic Acid,300,98.0864404512885,Severe
+986,39,Female,Filiform,Surgical,200,78.16958902468883,Severe
+987,58,Female,Plantar,Immunotherapy,200,97.34316066426649,Mild
+988,47,Male,Flat,Salicylic Acid,50,63.92820905862242,Severe
+989,64,Male,Mosaic,Surgical,50,65.75681395775015,Severe
+990,20,Female,Plantar,Cryotherapy,50,72.61195847705702,Severe
+991,49,Male,Mosaic,Laser,300,81.4398292812717,Mild
+992,20,Female,Genital,Laser,100,84.30801152885394,None
+993,74,Male,Flat,Cryotherapy,100,72.42816670551579,Mild
+994,54,Female,Genital,Cryotherapy,100,65.02123910355955,Mild
+995,77,Male,Filiform,Surgical,100,73.58944618049716,None
+996,23,Male,Filiform,Laser,200,57.90416769667433,Mild
+997,76,Male,Flat,Surgical,300,91.98260965727633,Severe
+998,32,Male,Plantar,Cryotherapy,200,67.56856978028661,None
+999,56,Female,Mosaic,Surgical,200,50.418206530058846,Severe
+1000,62,Female,Common,Laser,200,93.62956551135396,Mild
