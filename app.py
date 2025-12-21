@@ -200,15 +200,13 @@ with col2:
     side_effects = st.selectbox("Side Effects", side_effect_options)
     chosen_method = st.selectbox("Treatment Method (for single prediction)", treatment_methods if treatment_methods else ["Cryotherapy", "Immunotherapy", "Topical"])
 
-# Auto cost toggle
-auto_cost = st.toggle("Auto-generate treatment cost (recommended)", value=True)
+# Auto-generate treatment cost (fixed, non-editable)
+treatment_cost = estimate_cost_inr(chosen_method, wart_type, side_effects)
 
-if auto_cost:
-    estimated_cost = estimate_cost_inr(chosen_method, wart_type, side_effects)
-    st.info(f"Estimated cost for **{chosen_method}**: **₹{estimated_cost:,}** (editable below if you want)")
-    treatment_cost = st.number_input("Treatment Cost (INR)", min_value=0, value=int(estimated_cost), step=100)
-else:
-    treatment_cost = st.number_input("Treatment Cost (INR)", min_value=0, value=1000, step=100)
+st.info(
+    f"💰 Estimated Treatment Cost for **{chosen_method}**: "
+    f"**₹{treatment_cost:,}**"
+)
 
 # Recommendation toggle
 show_reco = st.toggle("Show best treatment recommendation (rank all options)", value=True)
@@ -277,3 +275,4 @@ if predict_btn:
             "Note: Recommendation is based on the trained ML model + estimated costs. "
             "Actual clinical decision depends on lesion count, location, clinician evaluation, and patient factors."
         )
+
