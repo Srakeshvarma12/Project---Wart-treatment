@@ -243,7 +243,7 @@ if predict_btn:
     if show_reco and treatment_methods:
         rows = []
         for m in treatment_methods:
-            auto_c = estimate_cost_inr(m, wart_type, side_effects) if auto_cost else int(treatment_cost)
+           auto_c = estimate_cost_inr(m, wart_type, side_effects)
             df_m = build_input_df(
                 age=int(age),
                 gender=gender,
@@ -275,4 +275,5 @@ if predict_btn:
             "Note: Recommendation is based on the trained ML model + estimated costs. "
             "Actual clinical decision depends on lesion count, location, clinician evaluation, and patient factors."
         )
+
 
