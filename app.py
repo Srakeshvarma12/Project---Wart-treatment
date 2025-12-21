@@ -239,41 +239,55 @@ if predict_btn:
         st.error("❌ Low probability of treatment success")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # Recommendation: evaluate ALL supported methods
-    if show_reco and treatment_methods:
-        rows = []
-        for m in treatment_methods:
-           auto_c = estimate_cost_inr(m, wart_type, side_effects)
-                df_m = build_input_df(
-                age=int(age),
-                gender=gender,
-                wart_type=wart_type,
-                method=m,
-                side_effect=side_effects,
-                treatment_cost=int(auto_c)
-            )
-            p = predict_success_proba(df_m)
-            rows.append({
-                "Treatment Method": m,
-                "Estimated Cost (INR)": int(auto_c),
-                "Success Probability": round(p, 4),
-                "Success Rate (%)": round(p * 100, 2),
-            })
+# Recommendation: evaluate ALL supported methods
+if show_reco and treatment_methods:
+    rows = []
+    for m in treatment_methods:
+        auto_c = estimate_cost_inr(m, wart_type, side_effects)
 
-        rec_df = pd.DataFrame(rows).sort_values(by="Success Probability", ascending=False).reset_index(drop=True)
-        best = rec_df.iloc[0]
+        df_m = build_input_df(
+            age=int(age),
+            gender=gender,
+            wart_type=wart_type,
+            method=m,
+            side_effect=side_effects,
+            treatment_cost=int(auto_c)
+        )
 
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("🏆 Best Treatment Recommendation (Model-Based)")
-        st.success(f"Recommended: **{best['Treatment Method']}**  •  Success ≈ **{best['Success Rate (%)']}%**  •  Est. cost ≈ **₹{best['Estimated Cost (INR)']:,}**")
+        p = predict_success_proba(df_m)
 
-        st.write("All treatment options ranked:")
-        st.dataframe(rec_df, use_container_width=True)
-        st.markdown('</div>', unsafe_allow_html=True)
+        rows.append({
+            "Treatment Method": m,
+            "Estimated Cost (INR)": int(auto_c),
+            "Success Probability": round(p, 4),
+            "Success Rate (%)": round(p * 100, 2),
+        })
+
+    rec_df = (
+        pd.DataFrame(rows)
+        .sort_values(by="Success Probability", ascending=False)
+        .reset_index(drop=True)
+    )
+
+    best = rec_df.iloc[0]
+
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.subheader("🏆 Best Treatment Recommendation (Model-Based)")
+    st.success(
+        f"Recommended: **{best['Treatment Method']}**  •  "
+        f"Success ≈ **{best['Success Rate (%)']}%**  •  "
+        f"Est. cost ≈ **₹{best['Estimated Cost (INR)']:,}**"
+    )
+
+    st.write("All treatment options ranked:")
+    st.dataframe(rec_df, use_container_width=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+
 
         st.caption(
             "Note: Recommendation is based on the trained ML model + estimated costs. "
             "Actual clinical decision depends on lesion count, location, clinician evaluation, and patient factors."
         )
+
 
 
