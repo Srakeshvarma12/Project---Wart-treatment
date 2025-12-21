@@ -244,7 +244,7 @@ if predict_btn:
         rows = []
         for m in treatment_methods:
            auto_c = estimate_cost_inr(m, wart_type, side_effects)
-            df_m = build_input_df(
+                df_m = build_input_df(
                 age=int(age),
                 gender=gender,
                 wart_type=wart_type,
