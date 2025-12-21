@@ -153,6 +153,7 @@ if predict_btn:
     selected_input[f"Treatment Method_{treatment_method}"] = 1
 
     selected_df = pd.DataFrame([selected_input])
+    selected_df = selected_df.reindex(columns=feature_columns, fill_value=0)
     selected_scaled = scaler.transform(selected_df)
     selected_prob = model.predict_proba(selected_scaled)[0][1]
     selected_rate = round(selected_prob * 100, 2)
@@ -176,6 +177,7 @@ if predict_btn:
         temp_input[f"Treatment Method_{method}"] = 1
 
         temp_df = pd.DataFrame([temp_input])
+        temp_df = temp_df.reindex(columns=feature_columns, fill_value=0)
         temp_scaled = scaler.transform(temp_df)
         prob = model.predict_proba(temp_scaled)[0][1]
         results[method] = round(prob * 100, 2)
